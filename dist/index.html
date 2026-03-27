@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Street Basketball FPS</title>
+  <script type="module" crossorigin src="/assets/index-C9PDBqvs.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-F4eZoEt6.css">
+</head>
+<body>
+    <div id="overlay">
+        <div class="menu">
+            <h2>3D STREET BASKETBALL</h2>
+            <p>WASD: Move | Shift: Sprint | Mouse: Aim &amp; Shoot | Space: Jump<br>Sprint + Click near basket = layup/dunk!</p>
+            <button id="start-btn">CLICK TO START</button>
+        </div>
+    </div>
+    
+    <div id="ui-layer" style="display: none;">
+        <div id="crosshair">
+            <div class="ch-line ch-top"></div>
+            <div class="ch-line ch-bot"></div>
+            <div class="ch-line ch-left"></div>
+            <div class="ch-line ch-right"></div>
+        </div>
+        <div id="score-board">
+            <h1>SCORE</h1>
+            <div id="score">0</div>
+        </div>
+        <div id="score-popup"></div>
+        <div id="shot-indicator">
+            <span id="shot-type">🎯 3PT SHOT</span>
+            <span id="shot-distance">6.9m</span>
+            <span id="auto-indicator">[B] AUTO: OFF</span>
+        </div>
+        <div id="power-bar-container">
+            <div id="power-bar-wrapper">
+                <div id="power-bar"></div>
+            </div>
+            <div class="power-label">POWER</div>
+        </div>
+    </div>
+    
+</body>
+</html>
